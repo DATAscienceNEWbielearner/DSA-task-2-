@@ -1,6 +1,4 @@
 def sortColors(nums):
-    # Dutch National Flag algorithm
-    # Three pointers: left for 0s, right for 2s, mid for current
     left = 0
     right = len(nums) - 1
     mid = 0
