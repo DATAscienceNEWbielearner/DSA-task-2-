@@ -1,6 +1,4 @@
 def findDuplicate(nums):
-    # Floyd's Cycle Detection (Tortoise and Hare)
-    # Works for array with numbers 1 to n where one number appears twice
     slow = nums[0]
     fast = nums[0]
     
