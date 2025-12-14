@@ -11,7 +11,7 @@ def remove_duplicates(arr):
     # First pointer for unique elements
     unique_idx = 0
     
-    # Second pointer to iterate through array
+    # Second pointer to repeat through array
     for i in range(1, len(arr)):
         if arr[i] != arr[unique_idx]:
             unique_idx += 1
@@ -36,16 +36,7 @@ def remove_duplicates_value_only(arr):
 
 
 def remove_duplicates_with_k(arr, k):
-    """
-    Remove duplicates allowing at most k occurrences.
-    
-    Args:
-        arr: Sorted list of integers
-        k: Maximum occurrences allowed
-    
-    Returns:
-        Number of elements after removing duplicates
-    """
+   
     if not arr:
         return 0
     
